@@ -1,0 +1,23 @@
+.home-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 38px;
+}
+
+.home-text {
+  width: 25%;
+}
+
+.allPhotos {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-photo {
+  width: 40%;
+  height: 410px;
+  object-fit: cover;
+}

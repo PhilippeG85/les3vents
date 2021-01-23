@@ -1,10 +1,17 @@
-body {
-  font-family: Helvetica;
+@import "navbar";
+@import "footer";
+@import "home";
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
-#root {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+body {
+  font-family: Helvetica;
+  padding-top: 82px;
 }
+
+.center {
+  text-align: center;
+}
+
