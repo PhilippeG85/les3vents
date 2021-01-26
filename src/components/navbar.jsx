@@ -14,12 +14,12 @@ function Navbar() {
       <div className="navbar">
         <div className="container navbar-content">
           <h1 className="navbar-h1">Les Trois Mats</h1>
-          <Link to="/" className="navbar-h2">Accueil</Link>
-          <Link className="navbar-h2" to="/description">Descriptions & Photos</Link>
-          <h4 className="navbar-h2">Disponibilites & Tarifs</h4>
-          <h4 className="navbar-h2">Emplacement & Contact</h4>
-          <h4 className="navbar-h2">Activites</h4>
-          <h4 className="navbar-h2">Lien</h4>
+          <Link to="/" className="navbar-btn">Accueil</Link>
+          <Link className="navbar-btn" to="/description">Descriptions & Photos</Link>
+          <Link to="/disponibilite&tarif" className="navbar-btn">Disponibilites & Tarifs</Link>
+          <Link to="/emplacement" className="navbar-btn">Emplacement & Contact</Link>
+          <Link to="/activite" className="navbar-btn">Activites</Link>
+          <Link to="/lien" className="navbar-btn">Lien</Link>
         </div>
       </div>
     </div>

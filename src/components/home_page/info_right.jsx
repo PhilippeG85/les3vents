@@ -4,10 +4,12 @@ function InfoRight({ info }) {
   return (
     <div className="container home-info">
       <div className="home-text">
-        <h1>{info.id}</h1>
+        <h1 className="numero-activity">{info.id}</h1>
         <h3 className="center">{info.title}</h3>
-        <p>{info.text}</p>
-        <a href="#">{info.link}</a>
+        <p className="center p-12">{info.text}</p>
+        <div className="center p-12">
+          <a href="#" className="home-button">{info.link}</a>
+        </div>
       </div>
       <div className="allPhotos">
         <img src={info.photo1} alt="" className="home-photo" />

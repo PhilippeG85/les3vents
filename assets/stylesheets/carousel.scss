@@ -1,0 +1,30 @@
+.carousel {
+  position: relative;
+  height: 440px;
+  width: 500px;
+}
+
+.chevron-left {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  font-size: 40px;
+}
+
+.chevron-right {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  font-size: 40px;
+}
+
+.carousel-img {
+  object-fit: contain;
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.active {
+  display: block;
+}
