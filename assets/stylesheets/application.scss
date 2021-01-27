@@ -2,6 +2,8 @@
 @import "footer";
 @import "home";
 @import "carousel";
+@import "description";
+@import "disponibilite";
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
@@ -23,4 +25,18 @@ body {
 
 .p-12 {
   padding: 12px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.m-5 {
+  margin: 50px;
+}
+
+.underline {
+  text-decoration: underline;
 }

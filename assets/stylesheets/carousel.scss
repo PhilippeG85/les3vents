@@ -1,7 +1,9 @@
 .carousel {
   position: relative;
-  height: 440px;
+  height: 380px;
   width: 680px;
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 .chevron-left {
@@ -29,7 +31,6 @@
 .carousel-img {
   object-fit: contain;
   display: none;
-  height: 100%;
   width: 100%;
 }
 

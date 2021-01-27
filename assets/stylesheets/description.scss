@@ -1,0 +1,14 @@
+.description-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  padding: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+  border-radius: 12px;
+}
+
+.description-card-content {
+  padding: 0 62px;
+  width: 452px;
+}

@@ -1,0 +1,25 @@
+.dispo-img {
+  height: 400px;
+  width: 700px;
+  object-fit: cover;
+}
+
+.dispo-tarif-header {
+  flex-direction: horizontal;
+}
+
+.dispo-tarif {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 600px;
+  margin: 0 auto 20px;
+}
+
+.season-header {
+  color: red;
+}
+
+.dispo-consigne {
+  margin-bottom: 0px !important;
+}
