@@ -1,0 +1,23 @@
+.activite-info {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.activite-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+.activite-img {
+  height: 450px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.card-content-title {
+  padding: 6px 0 26px;
+}
