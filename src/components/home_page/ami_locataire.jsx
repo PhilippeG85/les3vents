@@ -18,4 +18,4 @@ function AmisLocataire() {
 }
 
 
-export default AmisLocataire
+export default AmisLocataire;
