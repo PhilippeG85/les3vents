@@ -1,10 +1,12 @@
 import React from "react";
 
+import IMG_7932 from "../../assets/img/IMG_7932.JPG";
+
 function Disponibilite() {
   return (
     <div className="container">
       <div className="m-5 d-flex">
-        <img className="dispo-img" src="../../../assets/img/IMG_7932.JPG" alt="" />
+        <img className="dispo-img" src={IMG_7932} alt="" />
       </div>
       <div className="d-flex dispo-tarif-header">
         <h3>Tarifs</h3>

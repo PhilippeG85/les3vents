@@ -12,7 +12,7 @@ function InfoLeft({ info }) {
         <h3 className="center">{info.title}</h3>
         <p className="center p-12">{info.text}</p>
         <div className="center p-12">
-          <a href="#" className="home-button">{info.link}</a>
+          <a href="google.ca" className="home-button">{info.link}</a>
         </div>
       </div>
     </div>

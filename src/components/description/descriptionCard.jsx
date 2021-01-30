@@ -1,7 +1,6 @@
 import React from "react";
 
 function DescriptionCard({ title, description, liste }) {
-
   const displayList = liste.map((item) => {
     return <li key={item}>{item}</li>;
   });

@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import img from "../assets/img/home_page.jpeg";
 
 function Navbar() {
   const backgroundImage = {
-    backgroundImage: `url("../../assets/img/home_page.jpeg")`
+    backgroundImage: `url(${img})`
   };
 
   const [ home, setHome ] = useState(true);
