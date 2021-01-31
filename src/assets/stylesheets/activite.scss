@@ -6,10 +6,13 @@
 .activite-cards {
   display: grid;
   grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 464px);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .activite-img {
-  height: 450px;
+  height: 100%;
   object-fit: cover;
   width: 100%;
 }

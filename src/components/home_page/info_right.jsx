@@ -23,5 +23,4 @@ function InfoRight({ info }) {
   );
 }
 
-
 export default InfoRight;

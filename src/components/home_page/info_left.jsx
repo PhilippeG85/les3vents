@@ -23,5 +23,4 @@ function InfoLeft({ info }) {
   );
 }
 
-
 export default InfoLeft;
