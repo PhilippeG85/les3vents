@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { HomeContext } from "../../home_context";
 
 function InfoLeft({ info }) {
+  const { toggleHome } = useContext(HomeContext);
+
   return (
     <div className="container home-info">
       <div className="allPhotos">
@@ -13,7 +16,7 @@ function InfoLeft({ info }) {
         <h3 className="center">{info.title}</h3>
         <p className="center p-12">{info.text}</p>
         <div className="center p-12">
-          <Link to={info.link_url} className="home-button">{info.link}</Link>
+          <Link to={info.link_url} className="home-button" onClick={() => toggleHome(false)}>{info.link}</Link>
         </div>
       </div>
     </div>
