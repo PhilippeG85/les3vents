@@ -20,7 +20,7 @@ export default [
     title: "Activites",
     text: "La Vendée, département dynamique qui offre une multitude de sites d'activités pour passer des vacances inoubliables. Le plus connu étant le Puy du Fou mais Les Sables d'Olonne n'est pas en reste avec ses nombreuses activités nautiques, ses balades en vélo dans les marais, la visite du quartier de l'île penotte et tant d'autres.",
     link: "Activites",
-    link_url: "/activity",
+    link_url: "/activite",
     photo1: DJI_0007,
     photo2: IMG_7971
   },

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function InfoRight({ info }) {
   return (
@@ -8,7 +9,7 @@ function InfoRight({ info }) {
         <h3 className="center">{info.title}</h3>
         <p className="center p-12">{info.text}</p>
         <div className="center p-12">
-          <a href="google.ca" className="home-button">{info.link}</a>
+          <Link to={info.link_url} className="home-button">{info.link}</Link>
         </div>
       </div>
       <div className="allPhotos">
