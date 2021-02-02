@@ -14,7 +14,7 @@ function InfoLeft({ info }) {
       <div className="home-text">
         <h1 className="numero-activity">{info.id}</h1>
         <h3 className="center">{info.title}</h3>
-        <p className="center p-12">{info.text}</p>
+        <p className="p-12">{info.text}</p>
         <div className="center p-12">
           <Link to={info.link_url} className="home-button" onClick={() => toggleHome(false)}>{info.link}</Link>
         </div>

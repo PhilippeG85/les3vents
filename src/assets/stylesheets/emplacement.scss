@@ -1,8 +1,12 @@
 .emplacement-img {
-  height: 550px;
-  margin: 25px 58px;
+  height: 650px;
 }
 
 .emplacement-content {
-  padding: 58px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 12px;
+  margin-left: 48px;
 }

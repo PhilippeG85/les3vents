@@ -20,23 +20,16 @@ function Disponibilite() {
         </div>
         <div className="center low-season">
           <h3 className="season-header">Haute Saison</h3>
-          <p>
-            <div className="underline">Basse saison :</div>
-            149 € par nuit
-            <br />
-            991 € par semaine
-            <br />
-            <br />
-            <div className="underline">Hors saison :</div>
-            128 €  par nuit
-            <br />
-            851 € par semaine
-            <br />
-            <br />
-            Basse ou Hors saison :
-            <br />
-            Location minimum de 2 nuits
-          </p>
+          <p style={{ textDecoration: "underline" }}>Basse saison</p>
+          <p>149 € par nuit</p>
+          <p>991 € par semaine</p>
+          <br />
+          <p>Hors saison :</p>
+          <p>128 €  par nuit</p>
+          <p>851 € par semaine]</p>
+          <br />
+          <p style={{ textDecoration: "underline" }}>Basse ou Hors saison :</p>
+          <p>Location minimum de 2 nuits</p>
         </div>
       </div>
       <div className="d-flex">

@@ -2,7 +2,7 @@ import React from "react";
 
 function AmisLocataire() {
   return (
-    <div className="container">
+    <div className="ami-locataire container">
       <h3 className="center">Amis Locataire</h3>
       <p className="center">
         Bienvenue au « Trois Mâts » où nous serons ravis de vous y accueillir.
