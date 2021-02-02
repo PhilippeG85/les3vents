@@ -3,7 +3,7 @@ import React from "react";
 import AmisLocataire from "./ami_locataire";
 import Info from "./activity";
 import HomeInfo from "./home_info";
-import MapContainer from "../map";
+import MapContainer from "../mapG";
 
 
 function Home() {

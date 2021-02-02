@@ -1,7 +1,7 @@
 import React from "react";
 
 import emplacement from "../../assets/img/emplacement/emplacement.jpg";
-import MapContainer from "../map";
+import MapContainer from "../mapG";
 
 function Emplacement() {
   return (
