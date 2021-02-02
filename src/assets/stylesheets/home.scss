@@ -50,4 +50,12 @@
 
 .home-map {
   margin-bottom: 48px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+  padding: 0;
+}
+
+.ami-locataire {
+  max-width: 650px;
 }
