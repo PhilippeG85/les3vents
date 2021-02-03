@@ -2,6 +2,7 @@ import React from "react";
 
 import emplacement from "../../assets/img/emplacement/emplacement.jpg";
 import MapContainer from "../maps";
+import Form from "./form";
 
 function Emplacement() {
   return (
@@ -39,6 +40,7 @@ function Emplacement() {
           85100 LES SABLES D OLONNE
         </p>
       </div>
+      <Form />
     </div>
   );
 }
