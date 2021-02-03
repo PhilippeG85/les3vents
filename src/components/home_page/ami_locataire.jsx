@@ -3,7 +3,7 @@ import React from "react";
 function AmisLocataire() {
   return (
     <div className="ami-locataire container">
-      <h3 className="center">Amis Locataire</h3>
+      <h3 className="center">Amis Locataires</h3>
       <p className="center">
         Bienvenue au « Trois Mâts » où nous serons ravis de vous y accueillir.
         Avant toute chose, nous vous souhaitons de bonnes et belles vacances dans

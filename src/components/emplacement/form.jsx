@@ -15,7 +15,12 @@ function Form() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    emailjs.send(serviceId, templateId, { name, message, reply_to: email })
+    emailjs.send(serviceId, templateId, {
+      name,
+      message,
+      reply_to: email,
+      tel
+    })
       .then(() => {
         setName('');
         setTel('');
