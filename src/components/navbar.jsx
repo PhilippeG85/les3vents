@@ -15,7 +15,7 @@ function Navbar() {
     <div className={home ? "header" : null} style={home ? backgroundImage : null}>
       <div className="navbar">
         <div className="container navbar-content">
-          <h1 className="navbar-h1">Les Trois Mats</h1>
+          <h1 className="navbar-h1">Les Trois Mâts</h1>
           <Link to="/" className="navbar-btn" onClick={() => toggleHome(true)}>Accueil</Link>
           <Link className="navbar-btn" to="/description" onClick={() => toggleHome(false)}>Descriptions & Photos</Link>
           <Link to="/disponibilite&tarif" className="navbar-btn" onClick={() => toggleHome(false)}>Disponibilites & Tarifs</Link>

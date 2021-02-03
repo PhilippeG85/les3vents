@@ -12,15 +12,22 @@ function Form() {
   const [tel, setTel] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [display, setDisplay] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    emailjs.send(serviceId, templateId, { name, message, reply_to: email })
+    emailjs.send(serviceId, templateId, {
+      name,
+      message,
+      reply_to: email,
+      tel
+    })
       .then(() => {
         setName('');
         setTel('');
         setEmail('');
         setMessage('');
+        setDisplay(true);
       }, () => {
         // eslint-disable-next-line no-alert
         alert("Erreur de l'envoi du message");
@@ -47,7 +54,8 @@ function Form() {
         <input className="form-text" name="setEmail" type="text" placeholder="Email" value={email} onChange={handleChange} />
         <input className="form-text" name="setTel" type="text" placeholder="Telephone" value={tel} onChange={handleChange} />
         <textarea className="form-text-area" rows="7" name="setMessage" placeholder="Votre message ici" value={message} onChange={handleChange} />
-        <input type="submit" value="Envoye" />
+        <input type="submit" value="Envoyé" />
+        <p className="form-message-sent" style={display ? { display: "block" } : { display: "none" }}>Message envoyé, merci</p>
       </form>
     </div>
   );
