@@ -1,6 +1,6 @@
 export default {
   salonInfo: {
-    title: "Salon - Salle a manger",
+    title: "Salon - Salle à manger",
     description: "Le salon est équipé de tout ce dont vous pourriez avoir besoin pendant votre séjour.",
     liste: [
       "Internet connecte avec la fibre",
@@ -15,7 +15,7 @@ export default {
     liste: [
       "Salle de bain avec baignoire, douche, lavabo et sèche serviette",
       "Placard de rangement avec lave linge plus sèche linge",
-      "Porte mirroir"
+      "Porte miroir"
     ]
   },
   kitchenInfo: {
@@ -36,7 +36,7 @@ export default {
     liste: [
       "une chambre parentale avec un lit de 160 x 200",
       "une chambre a l'étage de deux lits de 80 x 200 avec possibilité de les rapprocher pour faire un lit de deux personnes avec un surmatelas de 160 x 200",
-      "la chambre du haut  possède une douche ainsi qu'un lavabo de toilette",
+      "la chambre du haut possède un espace toilette avec douche et lavabo.",
       "Volets roulants électriques"
     ]
   }

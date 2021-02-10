@@ -7,7 +7,7 @@ function Footer() {
         <h1>Les Trois Mâts</h1>
         <div>
           <p>22 Promenade Georges Godet</p>
-          <p>85100 Les Sables D Olonne</p>
+          <p>85100 Les Sables d&apos;Olonne</p>
         </div>
         <div>
           <p>Tel: 06-50-72-86-32</p>

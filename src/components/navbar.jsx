@@ -18,9 +18,9 @@ function Navbar() {
           <h1 className="navbar-h1">Les Trois Mâts</h1>
           <Link to="/" className="navbar-btn" onClick={() => toggleHome(true)}>Accueil</Link>
           <Link className="navbar-btn" to="/description" onClick={() => toggleHome(false)}>Descriptions & Photos</Link>
-          <Link to="/disponibilite&tarif" className="navbar-btn" onClick={() => toggleHome(false)}>Disponibilites & Tarifs</Link>
+          <Link to="/disponibilite&tarif" className="navbar-btn" onClick={() => toggleHome(false)}>Disponibilités & Tarifs</Link>
           <Link to="/emplacement" className="navbar-btn" onClick={() => toggleHome(false)}>Emplacement & Contact</Link>
-          <Link to="/activite" className="navbar-btn" onClick={() => toggleHome(false)}>Activites</Link>
+          <Link to="/activite" className="navbar-btn" onClick={() => toggleHome(false)}>Activités</Link>
           <Link to="/lien" className="navbar-btn" onClick={() => toggleHome(false)}>Lien</Link>
         </div>
       </div>

@@ -9,7 +9,7 @@ export default [
   {
     id: 1,
     title: "Les Trois Mats",
-    text: "Le trois mâts, appartement duplex labellisé 4 étoiles par l'office du tourisme, entièrement rénové et se situant en bord de mer. Idéal pour passer des vacances relaxantes avec le bruit des vagues comme berceuse.",
+    text: "Les trois mâts, appartement duplex labellisé 4 étoiles par l'office du tourisme, entièrement rénové et se situant en bord de mer. Idéal pour passer des vacances relaxantes avec le bruit des vagues comme berceuse.",
     link: "Descriptions & Photos",
     link_url: "/description",
     photo1: img1,
