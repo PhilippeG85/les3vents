@@ -27,12 +27,6 @@
 .link-btn {
   text-decoration: none;
   color: black;
-  transition: ease .3s;
-  &:hover {
-    text-decoration: none;
-    color: black;
-    transform: scale(1.2);
-  }
 }
 
 .flex-link {
@@ -49,4 +43,10 @@
   text-align: center;
   display: inline-block;
   margin: 12px;
+  transition: ease .3s;
+  &:hover {
+    text-decoration: none;
+    color: black;
+    transform: scale(1.2);
+  }
 }
