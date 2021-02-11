@@ -1,9 +1,6 @@
 .link {
-  height: 89vh;
-  background-size: cover;
-  display: grid;
-  grid-template-columns: repeat(5, 20%);
-  align-items: center;
+  text-align: center;
+  margin-top: 168px;
 }
 
 .usefull-link {
@@ -45,4 +42,11 @@
   height: 100%;
   width: 100%;
   padding: 40px 0;
+}
+
+.link-card-content {
+  width: 204px;
+  text-align: center;
+  display: inline-block;
+  margin: 12px;
 }

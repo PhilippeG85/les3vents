@@ -5,6 +5,8 @@ import Info from "./activity";
 import HomeInfo from "./home_info";
 import MapContainer from "../maps";
 
+import img from "../../assets/img/home_page.jpeg";
+
 
 function Home() {
   const info = Info.map((item) => {
@@ -14,6 +16,7 @@ function Home() {
 
   return (
     <div>
+      <img src={img} alt="" className="home-img" />
       <AmisLocataire />
       {info}
       <div className="container home-map">

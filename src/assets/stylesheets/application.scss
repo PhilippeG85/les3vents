@@ -20,7 +20,6 @@ h3 {
 
 body {
   font-family: 'Inconsolata', monospace;
-  padding-top: 82px;
 }
 
 .center {
@@ -43,4 +42,19 @@ body {
 
 .underline {
   text-decoration: underline;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  flex-shrink: 0;
+  height: 82px;
+}
+
+.main-content {
+  flex: 1 0 auto;
 }
