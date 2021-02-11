@@ -1,7 +1,7 @@
 .carousel {
   position: relative;
   height: 380px;
-  width: 680px;
+  width: 816px;
   overflow: hidden;
   border-radius: 4px;
 }
@@ -29,9 +29,10 @@
 }
 
 .carousel-img {
-  object-fit: contain;
+  object-fit: cover;
   display: none;
   width: 100%;
+  height: 100%;
 }
 
 .active {
