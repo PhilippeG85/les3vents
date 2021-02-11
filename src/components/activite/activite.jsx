@@ -15,7 +15,7 @@ function Activite() {
 
   const textIles = "Nichée en plein cœur du centre-ville des Sables d’Olonne, à quelques pas de la mer, au détour d’une ruelle étroite, baladez-vous dans un quartier un peu atypique et insolite où vous pourrez admirer de magnifiques fresques réalisées à partir de coquillages.";
 
-  const textVeillon = "A Talmont Saint Hilaire, laissez-vous surprendre par la beauté du Veillon ! Façonnée par l'estuaire du Payré, sculptée par le vent, la plage du Veillon prend des allures de lagons par endroits, et ne vous laissera pas indiffèrents.";
+  const textVeillon = "A Talmont Saint Hilaire, laissez-vous surprendre par la beauté du Veillon ! Façonnée par l'estuaire du Payré, sculptée par le vent, la plage du Veillon prend des allures de lagons par endroits, et ne vous laissera pas indifférents.";
 
   const textFou = "Le puy du fou reconnu mondialement est un incontournable pour toute personne visitant la Vendée. Des spectacles en tout genre illustrant des récits historiques tel que des batailles vikings, la table ronde, les jeux romains sans oublier la cinéscénie qui rassemble chaque soir environ 20 000 spectateurs.";
 
@@ -24,16 +24,18 @@ function Activite() {
   return (
     <div>
       <div className="activite-info center">
-        <h1>Activite</h1>
+        <h1>Activités</h1>
         <br />
         <p>
-          Les Sables d Olonne regorge d activités en tous genres,
+          Les Sables d&apos;Olonne,
           principalement connue pour sa magnifique plage qui attire chaque année
           bon nombre de vacanciers
-          et la course du Vendée Globe. On peut s y baigner, faire du surf,
-          prendre des cours de voile… Mais les terres vendéennes n ont pas à rougir.
-          Elles contiennent, elles aussi leur lot d attractions. Promenade à vélo dans les marais,
-          visite du centre ville des Sables d Olonne, découverte du Veillon,
+          et la course du Vendée Globe, regorge d&apos;activités en tous genres.
+          On peut s y baigner, faire du surf,
+          prendre des cours de voile… Mais les terres vendéennes n&apos;ont pas à rougir.
+          Elles contiennent, elles aussi leur lot d&apos;attractions.
+          Promenades à vélo dans les marais,
+          visite du centre ville des Sables d&apos;Olonne, découverte du Veillon,
           sans oublier le mythique Puy du Fou.
         </p>
         <br />
@@ -51,7 +53,7 @@ function Activite() {
         <img className="activite-img" src={puyDuFou} alt="" />
         <ActiviteCard number="05" title="Le Puy du Fou" text={textFou} />
         <img className="activite-img" src={IMG_7953} alt="" />
-        <ActiviteCard number="06" title="Musee aux Sables" text={textMusee} />
+        <ActiviteCard number="06" title="Musée aux Sables" text={textMusee} />
       </div>
     </div>
   );

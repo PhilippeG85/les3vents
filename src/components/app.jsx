@@ -12,30 +12,34 @@ import Footer from "./footer";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/description">
-          <Description />
-        </Route>
-        <Route path="/disponibilite&tarif">
-          <Disponibilite />
-        </Route>
-        <Route path="/emplacement">
-          <Emplacement />
-        </Route>
-        <Route path="/activite">
-          <Activite />
-        </Route>
-        <Route path="/lien">
-          <Lien />
-        </Route>
-      </Switch>
+    <div className="wrapper">
+      <div className="header">
+        <Navbar />
+      </div>
+      <div className="main-content">
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/description">
+            <Description />
+          </Route>
+          <Route path="/disponibilite&tarif">
+            <Disponibilite />
+          </Route>
+          <Route path="/emplacement">
+            <Emplacement />
+          </Route>
+          <Route path="/activite">
+            <Activite />
+          </Route>
+          <Route path="/lien">
+            <Lien />
+          </Route>
+        </Switch>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

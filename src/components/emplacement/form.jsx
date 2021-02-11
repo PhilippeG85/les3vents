@@ -52,7 +52,7 @@ function Form() {
       <form action="" className="form center" onSubmit={handleSubmit}>
         <input className="form-text" name="setName" type="text" placeholder="Nom" value={name} onChange={handleChange} />
         <input className="form-text" name="setEmail" type="text" placeholder="Email" value={email} onChange={handleChange} />
-        <input className="form-text" name="setTel" type="text" placeholder="Telephone" value={tel} onChange={handleChange} />
+        <input className="form-text" name="setTel" type="text" placeholder="Téléphone" value={tel} onChange={handleChange} />
         <textarea className="form-text-area" rows="7" name="setMessage" placeholder="Votre message ici" value={message} onChange={handleChange} />
         <input type="submit" value="Envoyé" />
         <p className="form-message-sent" style={display ? { display: "block" } : { display: "none" }}>Message envoyé, merci</p>

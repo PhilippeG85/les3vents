@@ -8,6 +8,8 @@
 .footer {
   color: white;
   background-color: black;
+  flex-shrink: 0;
+  height: 88px;
 }
 
 .legal-footer {

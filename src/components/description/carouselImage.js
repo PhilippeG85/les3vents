@@ -12,15 +12,24 @@ import IMG_7808 from "../../assets/img/salon/IMG_7808.JPG";
 import IMG_7809 from "../../assets/img/salon/IMG_7809.JPG";
 import IMG_7811 from "../../assets/img/salon/IMG_7811.JPG";
 import IMG_7994 from "../../assets/img/salon/IMG_7994.JPG";
+import IMG_8641 from "../../assets/img/salon/IMG_8641.JPG";
+import IMG_8645 from "../../assets/img/bathroom/IMG_8645.JPG";
+import IMG_8650 from "../../assets/img/bathroom/IMG_8650.JPG";
+import IMG_8653 from "../../assets/img/bathroom/IMG_8653.JPG";
+import IMG_8655 from "../../assets/img/bathroom/IMG_8655.JPG";
 
 
 export default {
   bathroom: {
-    number: 2,
+    number: 6,
     name: "bathroom",
     url: [
       IMG_5,
-      IMG_7781
+      IMG_7781,
+      IMG_8645,
+      IMG_8650,
+      IMG_8653,
+      IMG_8655
     ]
   },
   bedroom: {
@@ -43,13 +52,15 @@ export default {
     ]
   },
   salon: {
-    number: 5,
+    number: 6,
     name: "salon",
     url: [
       IMG_1,
       IMG_7808,
       IMG_7809,
       IMG_7811,
-      IMG_7994]
+      IMG_7994,
+      IMG_8641
+    ]
   }
 };

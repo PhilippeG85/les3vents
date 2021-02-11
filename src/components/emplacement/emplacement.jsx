@@ -14,9 +14,9 @@ function Emplacement() {
             <h1>Emplacement</h1>
             <p>
               Situé sur le bord de mer au dernière étage (5ème étage),
-              l appartement est à 1.7km de la gare, 20 minutes à pied ou 10 minutes en voiture.
+              l&apos;appartement est à 1.7km de la gare, 20 minutes à pied ou 10 minutes en voiture.
               De nombreux commerces sont ensuite accessibles à pied.
-              D une crêperie artisanale au rez de chaussée au manège, école de voile
+              D&apos;une crêperie artisanale au rez de chaussée au manège, école de voile
               et thalassothérapie sans oublier les commerces de nécessité:
               superette, boulangerie- pâtisserie, boucherie- charcuterie- traiteur,
               poissonnerie, fromagerie, pharmacie, coiffeur et tabac-presse.
@@ -37,7 +37,7 @@ function Emplacement() {
           <br />
           Résidence Le Surcouf, 5ème étage
           <br />
-          85100 LES SABLES D OLONNE
+          85100 LES SABLES D&apos;OLONNE
         </p>
       </div>
       <Form />
