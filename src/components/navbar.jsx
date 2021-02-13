@@ -21,7 +21,7 @@ function Navbar() {
         <Link to="/disponibilite&tarif" className="navbar-btn">Disponibilités & Tarifs</Link>
         <Link to="/emplacement" className="navbar-btn">Emplacement & Contact</Link>
         <Link to="/activite" className="navbar-btn">Activités</Link>
-        <Link to="/lien" className="navbar-btn">Lien</Link>
+        <Link to="/lien" className="navbar-btn">Liens</Link>
       </div>
     </div>
   // </div>
