@@ -53,7 +53,7 @@ function Activite() {
         <img className="activite-img" src={puyDuFou} alt="" />
         <ActiviteCard number="05" title="Le Puy du Fou" text={textFou} />
         <img className="activite-img" src={IMG_7953} alt="" />
-        <ActiviteCard number="06" title="Musée aux Sables" text={textMusee} />
+        <ActiviteCard number="06" title="Musées aux Sables" text={textMusee} />
       </div>
     </div>
   );

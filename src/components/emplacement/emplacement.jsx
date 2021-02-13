@@ -12,6 +12,7 @@ function Emplacement() {
         <div className="emplacement-content center">
           <div>
             <h1>Emplacement</h1>
+            <br />
             <p>
               Situé sur le bord de mer au dernière étage (5ème étage),
               l&apos;appartement est à 1.7km de la gare, 20 minutes à pied ou 10 minutes en voiture.
