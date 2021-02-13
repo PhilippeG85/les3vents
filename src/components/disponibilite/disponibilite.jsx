@@ -14,25 +14,28 @@ function Disponibilite() {
       </div>
       <div className="dispo-tarif">
         <div className="center high-season">
-          <h3 className="season-header">Pleine Saison</h3>
+          <h3 className="season-header">Haute Saison</h3>
           <p>195 € par nuit</p>
           <p>Location semaine minimum: 1365 €</p>
         </div>
         <div className="center low-season">
-          <h3 className="season-header">Haute Saison</h3>
-          <p style={{ textDecoration: "underline" }}>Basse saison</p>
+          <h3 className="season-header">Moyenne Saison</h3>
           <p>149 € par nuit</p>
           <p>991 € par semaine</p>
           <br />
-          <p>Hors saison :</p>
+        </div>
+      </div>
+      <div className="d-flex center">
+        <div>
+          <h3 className="season-header">Basse saison :</h3>
           <p>128 €  par nuit</p>
-          <p>851 € par semaine]</p>
+          <p>851 € par semaine</p>
           <br />
-          <p style={{ textDecoration: "underline" }}>Basse ou Hors saison :</p>
+          <p style={{ textDecoration: "underline" }}>Moyenne ou Basse saison :</p>
           <p>Location minimum de 2 nuits</p>
         </div>
       </div>
-      <div className="d-flex">
+      <div className="taxe-sejour d-flex">
         <p>Taxe séjour en plus : 1.90 € par adulte et par nuit</p>
       </div>
       <div className="m-5 center dispo-consigne">
