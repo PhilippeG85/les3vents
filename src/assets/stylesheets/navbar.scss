@@ -36,3 +36,53 @@
   padding: 8px;
   white-space: nowrap;
 }
+
+.navbar-mobile {
+  display: none;
+}
+
+.mobile-menu {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 99;
+  top: 0;
+  left: 20%;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 66px 0 110px 34px;
+  background-color: midnightblue;
+  transition: left ease 0.5s;
+}
+
+@media screen and (max-width: 780px) {
+  .navbar {
+    display: none;
+  }
+  .navbar-mobile {
+    display: flex;
+    margin-bottom: 0px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 26px;
+    height: 82px;
+  }
+  .fa-bars {
+    font-size: 32px;
+    z-index: 999;
+  }
+  .navbar-btn {
+    font-size: 32px;
+    color: white;
+  }
+  .mobile-menu {
+    display: flex;
+  }
+}
