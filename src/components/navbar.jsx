@@ -7,13 +7,13 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 // import { HomeContext } from "../home_context";
 
 function Navbar() {
-  const [display, setDisplay] = useState("100%");
+  const [left, setLeft] = useState(false);
 
   const handleClick = () => {
-    if (display === '100%') {
-      setDisplay('20%');
+    if (left) {
+      setLeft(false);
     } else {
-      setDisplay('100%');
+      setLeft(true);
     }
   };
   // const backgroundImage = {
@@ -39,7 +39,7 @@ function Navbar() {
       <div className="navbar-mobile">
         <h1 className="navbar-h1">Les Trois Mâts</h1>
         <FontAwesomeIcon icon={faBars} onClick={() => handleClick()} />
-        <div className="mobile-menu" style={{ left: display }}>
+        <div className={`mobile-menu ${left ? "left" : ""}`}>
           <Link to="/" className="navbar-btn">Accueil</Link>
           <Link className="navbar-btn" to="/description">Descriptions & Photos</Link>
           <Link to="/disponibilite&tarif" className="navbar-btn">Disponibilités & Tarifs</Link>

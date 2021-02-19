@@ -47,7 +47,7 @@
   width: 100%;
   z-index: 99;
   top: 0;
-  left: 20%;
+  left: 100%;
   display: none;
   flex-direction: column;
   justify-content: space-around;
@@ -84,5 +84,17 @@
   }
   .mobile-menu {
     display: flex;
+  }
+  .left {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .left {
+    left: 0%;
+  }
+  .navbar-btn {
+    font-size: 24px;
   }
 }
