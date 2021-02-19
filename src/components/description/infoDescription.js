@@ -35,7 +35,7 @@ export default {
     description: "L'appartement est équipé de deux chambres avec literie de qualité (Sommers):",
     liste: [
       "une chambre parentale avec un lit de 160 x 200",
-      "une chambre a l'étage de deux lits de 80 x 200 avec possibilité de les rapprocher pour faire un lit de deux personnes avec un surmatelas de 160 x 200",
+      "une chambre à l'étage de deux lits de 80 x 200 avec possibilité de les rapprocher pour faire un lit de deux personnes avec un surmatelas de 160 x 200",
       "la chambre du haut possède un espace toilette avec douche et lavabo.",
       "Volets roulants électriques"
     ]

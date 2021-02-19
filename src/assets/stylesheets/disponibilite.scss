@@ -12,10 +12,14 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  width: 600px;
+  max-width: 736px;
   margin: 0 auto 20px;
 }
 
 .season-header {
   color: red;
+}
+
+.taxe-sejour {
+  margin-top: 32px;
 }
