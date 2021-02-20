@@ -65,3 +65,23 @@
   height: 89vh;
   object-fit: cover;
 }
+
+@media screen and (max-width: 780px) {
+  .home-info {
+    flex-direction: column;
+  }
+  .home-text {
+    width: 80%;
+    height: auto;
+  }
+  .allPhotos {
+    width: 80%;
+    flex-direction: column;
+  }
+  .home-photo {
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    border-radius: 16px;
+  }
+}
