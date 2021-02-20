@@ -38,3 +38,16 @@
 .active {
   display: block;
 }
+
+@media screen and (max-width: 780px) {
+  .chevron-right {
+    &:hover {
+      transform: scale(1);
+    }
+  }
+  .chevron-left {
+    &:hover {
+      transform: scale(1);
+    }
+  }
+}
