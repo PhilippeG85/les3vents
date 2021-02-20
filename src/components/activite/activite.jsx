@@ -55,6 +55,34 @@ function Activite() {
         <img className="activite-img" src={IMG_7953} alt="" />
         <ActiviteCard number="06" title="Musées aux Sables" text={textMusee} />
       </div>
+      <div className="activite-cards-ipad">
+        <img className="activite-img" src={IMG_7932} alt="" />
+        <ActiviteCard number="01" title="Plage des Sables" text={textSables} />
+        <ActiviteCard number="02" title="Marais Salants" text={textSalants} />
+        <img className="activite-img" src={DJI_0007} alt="" />
+        <img className="activite-img" src={IMG_7972} alt="" />
+        <ActiviteCard number="03" title="Île Penotte" text={textIles} />
+        <ActiviteCard number="04" title="Plage du Veillon" text={textVeillon} />
+        <img className="activite-img" src={IMG_8112} alt="" />
+        <img className="activite-img" src={puyDuFou} alt="" />
+        <ActiviteCard number="05" title="Le Puy du Fou" text={textFou} />
+        <ActiviteCard number="06" title="Musées aux Sables" text={textMusee} />
+        <img className="activite-img" src={IMG_7953} alt="" />
+      </div>
+      <div className="activite-cards-mobile">
+        <ActiviteCard number="01" title="Plage des Sables" text={textSables} />
+        <img className="activite-img" src={IMG_7932} alt="" />
+        <ActiviteCard number="02" title="Marais Salants" text={textSalants} />
+        <img className="activite-img" src={DJI_0007} alt="" />
+        <ActiviteCard number="03" title="Île Penotte" text={textIles} />
+        <img className="activite-img" src={IMG_7972} alt="" />
+        <ActiviteCard number="04" title="Plage du Veillon" text={textVeillon} />
+        <img className="activite-img" src={IMG_8112} alt="" />
+        <ActiviteCard number="05" title="Le Puy du Fou" text={textFou} />
+        <img className="activite-img" src={puyDuFou} alt="" />
+        <ActiviteCard number="06" title="Musées aux Sables" text={textMusee} />
+        <img className="activite-img" src={IMG_7953} alt="" />
+      </div>
     </div>
   );
 }

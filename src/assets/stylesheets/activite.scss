@@ -1,5 +1,5 @@
 .activite-info {
-  width: 600px;
+  max-width: 600px;
   margin: 20px auto;
 }
 
@@ -23,4 +23,40 @@
 
 .card-content-title {
   padding: 6px 0 26px;
+}
+
+.activite-cards-mobile {
+  display: none;
+}
+
+.activite-cards-ipad {
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  .activite-cards-ipad {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(6, 464px);
+  }
+  .activite-cards {
+    display: none;
+  }
+  .activite-cards-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activite-cards {
+    display: none;
+  }
+  .activite-cards-ipad {
+    display: none;
+  }
+  .activite-cards-mobile {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(12, 450px);
+  }
 }
