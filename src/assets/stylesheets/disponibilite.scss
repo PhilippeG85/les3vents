@@ -4,6 +4,13 @@
   object-fit: cover;
 }
 
+.dispo-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
 .dispo-tarif-header {
   flex-direction: horizontal;
 }
@@ -22,4 +29,14 @@
 
 .taxe-sejour {
   margin-top: 32px;
+}
+
+@media screen and (max-width:780px) {
+  .dispo-img {
+    height: auto;
+    width: 100%;
+  }
+  .dispo-img-div {
+    margin: 24px;
+  }
 }
