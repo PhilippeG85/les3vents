@@ -10,3 +10,27 @@
   padding-top: 12px;
   margin-left: 48px;
 }
+
+.emplacement-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+@media screen and (max-width: 780px) {
+  .emplacement-div {
+    margin: 34px;
+    flex-direction: column;
+  }
+  .emplacement-content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .emplacement-img {
+    width: 100%;
+    height: auto;
+  }
+}

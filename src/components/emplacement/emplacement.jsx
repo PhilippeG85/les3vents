@@ -7,7 +7,7 @@ import Form from "./form";
 function Emplacement() {
   return (
     <div className="container">
-      <div className="d-flex m-5">
+      <div className="emplacement-div">
         <img className="emplacement-img" src={emplacement} alt="" />
         <div className="emplacement-content center">
           <div>
