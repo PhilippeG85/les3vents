@@ -9,10 +9,41 @@
   color: white;
   background-color: black;
   flex-shrink: 0;
-  height: 88px;
+  height: 100%;
 }
 
 .legal-footer {
   text-align: center;
   padding: 8px 0;
+}
+
+.footer-laptop {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.footer-mobile {
+  display: none;
+  width: 75%;
+}
+
+@media screen and (max-width: 780px) {
+  .footer-laptop {
+    display: none;
+  }
+  .footer-mobile {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+  }
+  .footer-content h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-mobile {
+    flex-direction: column;
+  }
 }
