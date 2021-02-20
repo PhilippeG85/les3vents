@@ -27,6 +27,10 @@
 .link-btn {
   text-decoration: none;
   color: black;
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .flex-link {
@@ -45,8 +49,6 @@
   margin: 12px;
   transition: ease .3s;
   &:hover {
-    text-decoration: none;
-    color: black;
     transform: scale(1.2);
   }
 }
@@ -58,4 +60,10 @@
   .usefull-link {
     font-size: 34px;
   }
+  .link-card-content {
+    &:hover {
+      transform: scale(1);
+    }
+  }
+
 }
