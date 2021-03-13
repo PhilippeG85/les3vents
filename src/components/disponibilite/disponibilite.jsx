@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useHistory } from "react-router-dom";
 
 import IMG_7932 from "../../assets/img/IMG_7932.JPG";
 
 function Disponibilite() {
+  const history = useHistory();
+
+  useEffect(() => {
+    if (history.action === 'PUSH') {
+      window.location.reload();
+    }
+  }, []);
+
+  // const handleRefresh = () => {
+  //   if (refresh === 1) {
+  //     window.location.reload();
+  //   }
+  // };
   return (
     <div className="container">
       <div className="dispo-img-div">
         <img className="dispo-img" src={IMG_7932} alt="" />
       </div>
+      <div className="appMountPoint-asideBooking" data-hotel_id="33204" data-room_id="60846" />
       <div className="d-flex dispo-tarif-header">
         <h3>Tarifs</h3>
         <p>(charges comprises)</p>
