@@ -14,7 +14,11 @@ function HomeContextProvider(props) {
   }
 
   return (
-    <HomeContext.Provider value={{ home, toggleHome }}>
+    <HomeContext.Provider value={{
+      home,
+      toggleHome
+    }}
+    >
       { children }
     </HomeContext.Provider>
   );

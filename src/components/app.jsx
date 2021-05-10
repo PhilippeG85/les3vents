@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
 
 import Navbar from "./navbar";
@@ -11,6 +11,18 @@ import Lien from "./lien/lien";
 import Footer from "./footer";
 
 function App() {
+  const [animation, setAnimation] = useState(true);
+
+  useEffect(() => {
+    if (window.location.pathname === "/disponibilite&tarif") {
+      setAnimation(false);
+    }
+    const id = setTimeout(() => {
+      setAnimation(false);
+    }, 5000);
+    return () => clearTimeout(id);
+  }, []);
+
   return (
     <div className="wrapper">
       <div className="header">
@@ -19,7 +31,7 @@ function App() {
       <div className="main-content">
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Home animation={animation} />
           </Route>
           <Route path="/description">
             <Description />

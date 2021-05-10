@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import './assets/stylesheets/application.scss';
 import App from "./components/app";
+import ScrollToTop from "./scroll_top";
 import { HomeContextProvider } from "./home_context";
 
 
@@ -11,6 +12,7 @@ const root = document.getElementById('root');
 if (root) {
   ReactDOM.render(
     <Router>
+      <ScrollToTop />
       <HomeContextProvider>
         <App />
       </HomeContextProvider>

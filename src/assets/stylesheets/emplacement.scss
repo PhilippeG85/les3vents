@@ -18,6 +18,12 @@
   margin: 50px;
 }
 
+.map-emplacement {
+  .mapboxgl-map {
+    border-radius: 12px;
+  }
+}
+
 @media screen and (max-width: 780px) {
   .emplacement-div {
     margin: 34px;

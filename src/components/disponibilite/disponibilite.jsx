@@ -19,10 +19,17 @@ function Disponibilite() {
   // };
   return (
     <div className="container">
+      <h1 className="text-center" style={{ marginTop: "20px" }}>Disponibilité & tarifs</h1>
+      <div className="appMountPoint-asideBooking" data-hotel_id="33204" data-room_id="60846" />
+      <p className="text-center" style={{ maxWidth: "80%", margin: "0 auto" }}>
+        Vérifiez ci dessus quelles dates vous conviennent le mieux pour passer de merveilleuse
+        vacances avec nous. Les tarifs sont détaillés plus bas sur cette page.
+        <br />
+        Contactez-nous pour réserver votre séjour.
+      </p>
       <div className="dispo-img-div">
         <img className="dispo-img" src={IMG_7932} alt="" />
       </div>
-      <div className="appMountPoint-asideBooking" data-hotel_id="33204" data-room_id="60846" />
       <div className="d-flex dispo-tarif-header">
         <h3>Tarifs</h3>
         <p>(charges comprises)</p>
