@@ -14,7 +14,7 @@ module.exports = {
   devtool: 'sourcemap',
   mode: "development",
   module: {
-    // noParse: /(mapbox-gl)\.js$/,
+    noParse: /(mapbox-gl)\.js$/,
     rules: [
       {
         test: /\.jsx?$/,
@@ -35,5 +35,5 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  ignore: ['./node_modules/mapbox-gl/dist/mapbox-gl.js']
+  // ignore: ['./node_modules/mapbox-gl/dist/mapbox-gl.js']
 };
