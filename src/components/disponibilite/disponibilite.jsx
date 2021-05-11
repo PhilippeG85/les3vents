@@ -22,7 +22,7 @@ function Disponibilite() {
       <h1 className="text-center" style={{ marginTop: "20px" }}>Disponibilité & tarifs</h1>
       <div className="appMountPoint-asideBooking" data-hotel_id="33204" data-room_id="60846" />
       <p className="text-center" style={{ maxWidth: "80%", margin: "0 auto" }}>
-        Vérifiez ci dessus quelles dates vous conviennent le mieux pour passer de merveilleuse
+        Vérifiez ci dessus quelles dates vous conviennent le mieux pour passer de merveilleuses
         vacances avec nous. Les tarifs sont détaillés plus bas sur cette page.
         <br />
         Contactez-nous pour réserver votre séjour.
