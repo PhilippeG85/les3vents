@@ -1,7 +1,7 @@
 import React from "react";
 
 import emplacement from "../../assets/img/emplacement/emplacement.jpg";
-import MapBox from "../mapBox";
+import MapBox2 from "../mapBox2";
 import Form from "./form";
 
 function Emplacement() {
@@ -24,7 +24,7 @@ function Emplacement() {
             </p>
           </div>
           <div className="map-emplacement">
-            <MapBox />
+            <MapBox2 />
           </div>
         </div>
       </div>
