@@ -19,7 +19,12 @@
 }
 
 .map-emplacement {
-  height: 100%;
+  height: 250px;
+  width: 350px;
+  .map-container-emplacement {
+    height: 100%;
+    width: 100%;
+  }
   .mapboxgl-map {
     border-radius: 12px;
   }
@@ -32,6 +37,10 @@
   }
   .emplacement-content {
     margin-left: 0;
+  }
+  .map-emplacement {
+    height: 70%;
+    width: 100%;
   }
 }
 
