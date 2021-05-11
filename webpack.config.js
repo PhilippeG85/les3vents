@@ -14,7 +14,6 @@ module.exports = {
   devtool: 'sourcemap',
   mode: "development",
   module: {
-    noParse: /node_modules\/react-mapbox-gl\/dist\/react-mapbox-gl.js/,
     rules: [
       {
         test: /\.jsx?$/,
