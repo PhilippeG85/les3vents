@@ -4,7 +4,8 @@ import AmisLocataire from "./ami_locataire";
 import Info from "./activity";
 import HomeInfo from "./home_info";
 // import MapContainer from "../maps";
-import MapBox from '../mapBox';
+// import MapBox from '../mapBox';
+import MapBox2 from '../mapBox2';
 
 import img from "../../assets/img/home_page.jpeg";
 
@@ -29,7 +30,8 @@ function Home({ animation }) {
       <AmisLocataire />
       {info}
       <div className="container home-map">
-        <MapBox />
+        {/* <MapBox /> */}
+        <MapBox2 />
         {/* <MapContainer height="400px" width="100%" /> */}
       </div>
     </div>

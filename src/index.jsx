@@ -6,6 +6,7 @@ import './assets/stylesheets/application.scss';
 import App from "./components/app";
 import ScrollToTop from "./scroll_top";
 import { HomeContextProvider } from "./home_context";
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 
 const root = document.getElementById('root');
