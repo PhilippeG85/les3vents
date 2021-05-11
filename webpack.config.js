@@ -34,5 +34,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  ignore: ['./node_modules/mapbox-gl/dist/mapbox-gl.js', './node_modules/react-mapbox-gl']
+  options: {
+    ignore: ['./node_modules/mapbox-gl/dist/mapbox-gl.js', './node_modules/react-mapbox-gl']
+  }
 };
