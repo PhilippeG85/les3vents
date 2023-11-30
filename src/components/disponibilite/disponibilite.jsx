@@ -17,7 +17,7 @@ function Disponibilite() {
   //     window.location.reload();
   //   }
   // };
-  return (
+  const page = (
     <div className="container">
       <h1 className="text-center" style={{ marginTop: "20px" }}>Disponibilité & tarifs</h1>
       <div className="appMountPoint-asideBooking" data-hotel_id="33204" data-room_id="60846" />
@@ -86,6 +86,9 @@ function Disponibilite() {
         </div>
       </div>
     </div>
+  );
+  return (
+    <>{ 1 === 0 ? page : 0 }</>
   );
 }
 
