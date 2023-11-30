@@ -5,7 +5,7 @@ function AmisLocataire() {
     <div className="ami-locataire container">
       <h3 className="center">Amis Locataires</h3>
       <p className="center">
-        Bienvenue au « Trois Mâts » où nous serons ravis de vous accueillir.
+        Bienvenue au « Trois Mâts » où nous serons ravis de vous accueillir.
         Avant toute chose, nous vous souhaitons de bonnes et belles vacances dans
         notre appartement au Surcouf.
         Dans ce duplex tout juste rénové, tout est rassemblé pour vous satisfaire.

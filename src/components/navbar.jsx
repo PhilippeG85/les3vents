@@ -30,7 +30,10 @@ function Navbar() {
           <h1 className="navbar-h1">Les Trois Mâts</h1>
           <Link to="/" className="navbar-btn">Accueil</Link>
           <Link className="navbar-btn" to="/description">Descriptions & Photos</Link>
-          <Link to="/disponibilite&tarif" className="navbar-btn">Disponibilités & Tarifs</Link>
+          {
+            /* <Link to="/disponibilite&tarif" className="navbar-btn">
+             * Disponibilités & Tarifs</Link> */
+          }
           <Link to="/emplacement" className="navbar-btn">Emplacement & Contact</Link>
           <Link to="/activite" className="navbar-btn">Activités</Link>
           <Link to="/lien" className="navbar-btn">Lien</Link>
@@ -42,7 +45,10 @@ function Navbar() {
         <div className={`mobile-menu ${left ? "left" : ""}`}>
           <Link onClick={() => handleClick()} to="/" className="navbar-btn">Accueil</Link>
           <Link onClick={() => handleClick()} className="navbar-btn" to="/description">Descriptions & Photos</Link>
-          <Link onClick={() => handleClick()} to="/disponibilite&tarif" className="navbar-btn">Disponibilités & Tarifs</Link>
+          {
+            /* <Link onClick={() => handleClick()} to="/disponibilite&tarif" className="navbar-btn">
+             * Disponibilités & Tarifs</Link> */
+          }
           <Link onClick={() => handleClick()} to="/emplacement" className="navbar-btn">Emplacement & Contact</Link>
           <Link onClick={() => handleClick()} to="/activite" className="navbar-btn">Activités</Link>
           <Link onClick={() => handleClick()} to="/lien" className="navbar-btn">Lien</Link>
